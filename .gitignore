@@ -28,6 +28,14 @@ build/
 metadata.json
 *.log
 
+# Excepciones: incluir archivos del modelo de deserción para Streamlit Cloud
+!modelo_riesgo_desercion.h5
+!modelo_riesgo_desercion.keras
+!label_encoder.pkl
+!columnas_X.pkl
+!scaler_estudiantes.pkl
+!datos_desercion_academica.csv
+
 # Archivos temporales
 *.tmp
 *.swp
