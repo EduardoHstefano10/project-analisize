@@ -1,8 +1,8 @@
 {
-  "train_mae": 0.9614838361740112,
-  "test_mae": 1.0717597007751465,
-  "train_mse": 1.4436689615249634,
-  "test_mse": 1.7597883939743042,
+  "train_mae": 0.9284311532974243,
+  "test_mae": 0.9904472231864929,
+  "train_mse": 1.338191032409668,
+  "test_mse": 1.5765180587768555,
   "feature_names": [
     "Promedio_ponderado",
     "Creditos_matriculados",

@@ -1,0 +1,35 @@
+# Entornos virtuales
+venv/
+.env/
+.venv/
+env/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Configuración/IDE
+.vscode/
+.idea/
+*.iml
+
+# Datos y salidas de modelos
+*.csv
+*.xlsx
+*.pkl
+*.keras
+*.h5
+metadata.json
+*.log
+
+# Archivos temporales
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
