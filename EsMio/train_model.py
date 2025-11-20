@@ -85,7 +85,7 @@ print(f"Test MSE: {test_mse:.4f}")
 
 # Guardar el modelo y el scaler
 print("\nGuardando modelo y scaler...")
-model.save("modelo_estudiantes.h5")
+model.save("modelo_estudiantes.keras")
 joblib.dump(scaler, "scaler_estudiantes.pkl")
 
 # Guardar nombres de características
@@ -106,7 +106,7 @@ with open("metadata.json", 'w') as f:
     json.dump(metadata, f, indent=2)
 
 print("\n✅ Modelo entrenado y guardado exitosamente!")
-print(f"   - modelo_estudiantes.h5")
+print(f"   - modelo_estudiantes.keras")
 print(f"   - scaler_estudiantes.pkl")
 print(f"   - feature_names.pkl")
 print(f"   - metadata.json")
