@@ -27,7 +27,7 @@ st.markdown("---")
 @st.cache_resource
 def load_model_and_scaler():
     try:
-        model = load_model("modelo_estudiantes.h5")
+        model = load_model("modelo_estudiantes.keras")
         scaler = joblib.load("scaler_estudiantes.pkl")
         feature_names = joblib.load("feature_names.pkl")
 
